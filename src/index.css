@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@layer utilities {
+  @keyframes bounceGentle {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-6px);
+    }
+  }
+
+  @keyframes pulseGentle {
+    0%, 100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+    50% {
+      opacity: 0.92;
+      transform: scale(1.03);
+    }
+  }
+
+  .animate-bounce-gentle {
+    animation: bounceGentle 2.5s ease-in-out infinite;
+  }
+
+  .animate-pulse-gentle {
+    animation: pulseGentle 3s ease-in-out infinite;
+  }
+}
+
+/* Furigana ruby typography enhancement */
+ruby {
+  ruby-align: center;
+}
+rt {
+  font-size: 0.55em;
+  color: #78350f;
+  font-weight: 700;
+  user-select: none;
+}
+

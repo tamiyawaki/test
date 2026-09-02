@@ -1,0 +1,6 @@
+{
+  "name": "わくわく まなびの もり - AI知育アドベンチャー",
+  "description": "小学校低学年（1〜3年生）がAI相棒（ポコ・ルナ・ピコ・コウ）と楽しく対話しながら算数・国語を学ぶアプリ。問題画面がRPG風のGenerative UI（ダイヤル宝箱・天秤・飛び石パズル・魔法調合等）で変化するアドベンチャーモード搭載。",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
